@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "aquaplus",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Aquatics Plus",
+  "description": "An Underwater mod that expands the normal ocean into an adventurous place to wonder about the unknown.",
   "authors": [
-    "Me!"
+    "Bubbycolditz"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://bubbycolditz.ezyro.com/",
+    "sources": "https://github.com/Bubbycolditz/AquaticsPlus"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "cc-by-sa-4.0",
+  "icon": "assets/aquaplus/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.bubbycolditz.aquaticsplus.AquaticsPlus"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
