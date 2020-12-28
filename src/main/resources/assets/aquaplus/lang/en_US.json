@@ -2,5 +2,9 @@
     "item.aquaplus.steel_ingot": "Steel Ingot",
     "item.aquaplus.carbon_chunk": "Carbon Chunk",
 
+    "block.aquaplus.carbon_block": "Carbon Block",
+    "block.aquaplus.carbon_ore": "Carbon Ore",
+    "block.aquaplus.steel_block": "Steel Block",
+
     "itemGroup.aquaplus.materials": "Aquatics Plus"
 }

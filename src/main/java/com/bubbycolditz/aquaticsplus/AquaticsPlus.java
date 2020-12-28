@@ -1,5 +1,6 @@
 package com.bubbycolditz.aquaticsplus;
 
+import com.bubbycolditz.aquaticsplus.registry.ModBlocks;
 import com.bubbycolditz.aquaticsplus.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -16,5 +17,6 @@ public class AquaticsPlus implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.registerItems();
+        ModBlocks.registerBlocks();
     }
 }

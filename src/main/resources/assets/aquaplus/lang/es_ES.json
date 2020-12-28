@@ -2,5 +2,9 @@
     "item.aquaplus.steel_ingot": "Lingote de acero",
     "item.aquaplus.carbon_chunk": "Trozo de carbono",
 
+    "block.aquaplus.carbon_block": "Bloque de carbono",
+    "block.aquaplus.carbon_ore": "Metálico de carbono",
+    "block.aquaplus.steel_block": "Bloque de acero",
+
     "itemGroup.aquaplus.materials": "Aquatics Plus"
 }
