@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "aquaplus:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "aquaplus:steel_block",
+    "count": 1
+  }
+}

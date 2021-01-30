@@ -21,8 +21,14 @@ public class ModBlocks {
     public static final Block CARBON_ORE = new Block(FabricBlockSettings.of(Material.METAL)
             .breakByTool(FabricToolTags.PICKAXES, 2)
             .requiresTool()
-            .strength(5.0f, 30.0f)
+            .strength(3.0f, 15.0f)
             .sounds(BlockSoundGroup.METAL)
+    );
+
+    public static final Block SCOOBA_DIVING_LOOM = new Block(FabricBlockSettings.of(Material.WOOD)
+            .breakByTool(FabricToolTags.AXES, 0)
+            .strength(2.0f, 10.0f)
+            .sounds(BlockSoundGroup.WOOD)
     );
 
     public static final Block STEEL_BLOCK = new Block(FabricBlockSettings.of(Material.METAL)
@@ -32,10 +38,12 @@ public class ModBlocks {
             .sounds(BlockSoundGroup.METAL)
     );
 
-
     public static void registerBlocks() {
+
         Registry.register(Registry.BLOCK, new Identifier(AquaticsPlus.MOD_ID, "carbon_block"), CARBON_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(AquaticsPlus.MOD_ID, "carbon_ore"), CARBON_ORE);
+        Registry.register(Registry.BLOCK, new Identifier(AquaticsPlus.MOD_ID, "scooba_diving_loom"), SCOOBA_DIVING_LOOM);
         Registry.register(Registry.BLOCK, new Identifier(AquaticsPlus.MOD_ID, "steel_block"), STEEL_BLOCK);
+
     }
 }

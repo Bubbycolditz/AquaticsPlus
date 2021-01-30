@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "aquaplus:blocks/scooba_diving_loom"
+    }
+}
